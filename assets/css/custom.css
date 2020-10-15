@@ -1,0 +1,47 @@
+ /* * {
+border:1px solid grey; 
+}  */
+
+/* =================== Navigation ===============  */
+.header {
+    background-color: #1F2833;
+}
+
+.header .blog-name .name, .header .nav-item.active .nav-link,  .media-body h2 {
+    color: #c5c6c7;
+    animation-name: colors;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes colors {
+    0% {color: #c5c6c7;}
+    33.3% {color: #66fcf1;}
+    66.6% {color: #45A29E;}
+    100% {color: #1f2833;}
+} 
+
+
+#navigation a:hover {
+    color: #66fcf1;
+  }
+
+  .social-list a {
+      background-color: black;
+  }
+/* ==============================================  */
+
+/* ==============================================  */
+
+.about-me-section {
+    background-color: #0b0c10;
+}
+
+.media-body .tagline, .media-body .bio {
+    color: #c5c6c7;
+}
+
+
+/* ==============================================  */
